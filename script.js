@@ -4,7 +4,7 @@ selectKairo ();
 function selectKairo (){
         document.getElementById('buttonsKairo').innerHTML= /*HTML*/`
             <div>
-                <img src="img/IMG_5013.jpg"/> 
+                <img src="img/Kairo1.jpg"/> 
                 <div>
                     <button onclick="Kairo3()"> 
                         ❮ 
@@ -21,7 +21,7 @@ function selectKairo (){
 function Kairo1 (){
     document.getElementById('buttonsKairo').innerHTML= /*HTML*/`
         <div>
-            <img src="img/IMG_5013.jpg"/> 
+            <img src="img/Kairo1.jpg"/> 
             <div>
                 <button onclick="Kairo3()"> 
                     ❮ 
@@ -39,7 +39,7 @@ function Kairo1 (){
 function Kairo2 (){
     document.getElementById('buttonsKairo').innerHTML= /*HTML*/`
         <div>
-            <img src="img/IMG_4994.jpg"/>
+            <img src="img/Kairo2.jpg"/>
             <div>
                 <button onclick="Kairo1()"> 
                     ❮ 
@@ -57,7 +57,7 @@ function Kairo2 (){
 function Kairo3 (){
     document.getElementById('buttonsKairo').innerHTML= /*HTML*/` 
         <div>
-            <img src="img/IMG_5509.jpg"/>
+            <img src="img/Kairo3.jpg"/>
             <div>
                 <button onclick="Kairo2()"> 
                     ❮ 
@@ -76,7 +76,7 @@ selectOscar ();
 function selectOscar (){
     document.getElementById('buttonsOscar').innerHTML= /*HTML*/`
         <div>
-            <img src="img/IMG_5641.jpg"/> 
+            <img src="img/Oscar1.JPG"/> 
             <div>
                 <button onclick="Oscar3()"> 
                     ❮ 
@@ -93,7 +93,7 @@ function selectOscar (){
 function Oscar1 (){
     document.getElementById('buttonsOscar').innerHTML= /*HTML*/`
         <div>
-            <img src="img/IMG_5641.jpg"/>
+            <img src="img/Oscar1.JPG"/>
             <div>   
                 <button onclick="Oscar3()"> 
                     ❮ 
@@ -110,7 +110,7 @@ function Oscar1 (){
 function Oscar2 (){
     document.getElementById('buttonsOscar').innerHTML= /*HTML*/`
         <div>
-            <img src="img/IMG_5640.jpg"/>
+            <img src="img/Oscar2.JPG"/>
             <div>
                 <button onclick="Oscar1()"> 
                     ❮ 
@@ -127,7 +127,7 @@ function Oscar2 (){
 function Oscar3 (){
     document.getElementById('buttonsOscar').innerHTML= /*HTML*/`
         <div>
-            <img src="img/IMG_5602.jpg"/> 
+            <img src="img/Oscar3.JPG"/> 
             <div>
                 <button onclick="Oscar2()"> 
                     ❮ 
@@ -149,4 +149,3 @@ function colorSwitch(){
     document.getElementById('button').style.background = 'black';
 }
 
-//document.getElementById('body, header, button').classList=[]; //
