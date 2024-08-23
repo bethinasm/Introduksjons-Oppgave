@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(108, 129, 83);
+  margin: 50px;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: antiquewhite;
+    background-color:rgb(108, 129, 83);
+    border-radius: 2cap;
+    width:650px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+    border: solid 1px rgb(59, 80, 62);
+    text-shadow: rgb(59, 80, 62) 2pt 2pt;
+    }
+
+.card {
+    background-color: antiquewhite;
+    width: 650px;
+    font-size: 14px;
+    padding: 30px;
+    border-radius: 5cap;
+    border: solid 1px rgb(59, 80, 62);
+}
+
+.images {
+    text-align: center;
+    display: flex;
+}
+
+img {
+    width:300px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+button {
+    background-color:rgb(108, 129, 83);
+    color: antiquewhite;
+    border: 1px;
+    margin: 10px;
+    border-radius: 1cap;
+    cursor: pointer;
+}
+
+.newColorDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.colorButton{
+    color: antiquewhite;
+    border: 1px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 1cap;
+    cursor: pointer;
+}
